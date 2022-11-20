@@ -151,6 +151,7 @@ describe('Basic user flow for Website', () => {
   // number in the top right of the screen is 0
   it('Checking number of items in cart on screen after removing from cart', async () => {
     console.log('Checking number of items in cart on screen...');
+
     // TODO - Step 6
     // Go through and click "Remove from Cart" on every single <product-item>, just like above.
     // Once you have, check to make sure that #cart-count is now 0
@@ -158,7 +159,7 @@ describe('Basic user flow for Website', () => {
     let shadowRoot, button;
     for (let i = 0; i<prodItems.length; i++) {
       shadowRoot = await prodItems[i].getProperty('shadowRoot');
-      button = await shadowRoot.$("button");
+      button = await shadowRoot.$('button');
       await button.click();
     }
 

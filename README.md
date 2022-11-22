@@ -1,6 +1,6 @@
 # Lab 8 - Starter
 **Name:** Xuying He\
-[Github Page](https://pika-chu11.github.io/CSE110-Lab8_Starter/);
+[Github Page](https://pika-chu11.github.io/CSE110-Lab8_Starter/)
 
 
 > 1) I would *Manually run them locally before pushing code.* Because it need to manually to check whether if the functions is correctly interact with each other in the way we expected.
